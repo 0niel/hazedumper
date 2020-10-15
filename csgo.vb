@@ -1,4 +1,4 @@
-' 2020-10-08 06:16:41.819000300 UTC
+' 2020-10-15 05:29:24.438094400 UTC
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -124,16 +124,17 @@ Namespace hazedumper
         Public Const dwMouseEnablePtr as Integer = &HD417D0
         Public Const dwPlayerResource as Integer = &H317FB10
         Public Const dwRadarBase as Integer = &H5184F9C
-        Public Const dwSensitivity as Integer = &HD52BBC
-        Public Const dwSensitivityPtr as Integer = &HD52B90
+        Public Const dwSensitivity as Integer = &HD4169C
+        Public Const dwSensitivityPtr as Integer = &HD41670
         Public Const dwSetClanTag as Integer = &H89E20
         Public Const dwViewMatrix as Integer = &H4D41B74
         Public Const dwWeaponTable as Integer = &H51A22C8
         Public Const dwWeaponTableIndex as Integer = &H325C
+        Public Const dwYawPtr as Integer = &HD41460
         Public Const dwZoomSensitivityRatioPtr as Integer = &HD46700
         Public Const dwbSendPackets as Integer = &HD41DA
         Public Const dwppDirect3DDevice9 as Integer = &HA7030
-        Public Const find_hud_element as Integer = &H2BF817D0
+        Public Const find_hud_element as Integer = &H269A17D0
         Public Const force_update_spectator_glow as Integer = &H3A0752
         Public Const interface_engine_cvar as Integer = &H3E9EC
         Public Const is_c4_owner as Integer = &H3AD1E0

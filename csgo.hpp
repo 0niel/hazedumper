@@ -1,7 +1,7 @@
 #pragma once
 #include <cstddef>
 
-// 2020-10-08 06:16:41.819000300 UTC
+// 2020-10-15 05:29:24.438094400 UTC
 
 namespace hazedumper {
 namespace netvars {
@@ -127,16 +127,17 @@ constexpr ::std::ptrdiff_t dwMouseEnable = 0xD41800;
 constexpr ::std::ptrdiff_t dwMouseEnablePtr = 0xD417D0;
 constexpr ::std::ptrdiff_t dwPlayerResource = 0x317FB10;
 constexpr ::std::ptrdiff_t dwRadarBase = 0x5184F9C;
-constexpr ::std::ptrdiff_t dwSensitivity = 0xD52BBC;
-constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xD52B90;
+constexpr ::std::ptrdiff_t dwSensitivity = 0xD4169C;
+constexpr ::std::ptrdiff_t dwSensitivityPtr = 0xD41670;
 constexpr ::std::ptrdiff_t dwSetClanTag = 0x89E20;
 constexpr ::std::ptrdiff_t dwViewMatrix = 0x4D41B74;
 constexpr ::std::ptrdiff_t dwWeaponTable = 0x51A22C8;
 constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x325C;
+constexpr ::std::ptrdiff_t dwYawPtr = 0xD41460;
 constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xD46700;
 constexpr ::std::ptrdiff_t dwbSendPackets = 0xD41DA;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA7030;
-constexpr ::std::ptrdiff_t find_hud_element = 0x2BF817D0;
+constexpr ::std::ptrdiff_t find_hud_element = 0x269A17D0;
 constexpr ::std::ptrdiff_t force_update_spectator_glow = 0x3A0752;
 constexpr ::std::ptrdiff_t interface_engine_cvar = 0x3E9EC;
 constexpr ::std::ptrdiff_t is_c4_owner = 0x3AD1E0;
