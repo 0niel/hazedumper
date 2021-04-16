@@ -1,7 +1,7 @@
 #pragma once
 #include <cstddef>
 
-// 2021-03-30 20:05:14.792104600 UTC
+// 2021-04-16 19:59:06.974463600 UTC
 
 namespace hazedumper {
 namespace netvars {
@@ -98,7 +98,7 @@ constexpr ::std::ptrdiff_t clientstate_delta_ticks = 0x174;
 constexpr ::std::ptrdiff_t clientstate_last_outgoing_command = 0x4D2C;
 constexpr ::std::ptrdiff_t clientstate_net_channel = 0x9C;
 constexpr ::std::ptrdiff_t convar_name_hash_table = 0x2F0F8;
-constexpr ::std::ptrdiff_t dwClientState = 0x58EFE4;
+constexpr ::std::ptrdiff_t dwClientState = 0x588FE4;
 constexpr ::std::ptrdiff_t dwClientState_GetLocalPlayer = 0x180;
 constexpr ::std::ptrdiff_t dwClientState_IsHLTV = 0x4D48;
 constexpr ::std::ptrdiff_t dwClientState_Map = 0x28C;
@@ -115,10 +115,10 @@ constexpr ::std::ptrdiff_t dwForceForward = 0x31D5514;
 constexpr ::std::ptrdiff_t dwForceJump = 0x524DEBC;
 constexpr ::std::ptrdiff_t dwForceLeft = 0x31D5490;
 constexpr ::std::ptrdiff_t dwForceRight = 0x31D5484;
-constexpr ::std::ptrdiff_t dwGameDir = 0x62D7F8;
+constexpr ::std::ptrdiff_t dwGameDir = 0x6277F8;
 constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x52C119C;
 constexpr ::std::ptrdiff_t dwGetAllClasses = 0xDB3F9C;
-constexpr ::std::ptrdiff_t dwGlobalVars = 0x58ECE8;
+constexpr ::std::ptrdiff_t dwGlobalVars = 0x588CE8;
 constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x52EC550;
 constexpr ::std::ptrdiff_t dwInput = 0x51F5540;
 constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x946B44;
@@ -136,7 +136,7 @@ constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x325C;
 constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xD96D70;
 constexpr ::std::ptrdiff_t dwbSendPackets = 0xD749A;
 constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA7050;
-constexpr ::std::ptrdiff_t find_hud_element = 0x2C2DE320;
+constexpr ::std::ptrdiff_t find_hud_element = 0x2BB2E320;
 constexpr ::std::ptrdiff_t force_update_spectator_glow = 0x3AD962;
 constexpr ::std::ptrdiff_t interface_engine_cvar = 0x3E9EC;
 constexpr ::std::ptrdiff_t is_c4_owner = 0x3BA430;
@@ -145,7 +145,7 @@ constexpr ::std::ptrdiff_t m_flSpawnTime = 0xA370;
 constexpr ::std::ptrdiff_t m_pStudioHdr = 0x294C;
 constexpr ::std::ptrdiff_t m_pitchClassPtr = 0x51D8F70;
 constexpr ::std::ptrdiff_t m_yawClassPtr = 0xD91AD0;
-constexpr ::std::ptrdiff_t model_ambient_min = 0x59205C;
+constexpr ::std::ptrdiff_t model_ambient_min = 0x58C05C;
 constexpr ::std::ptrdiff_t set_abs_angles = 0x1DF9C0;
 constexpr ::std::ptrdiff_t set_abs_origin = 0x1DF800;
 } // namespace signatures
