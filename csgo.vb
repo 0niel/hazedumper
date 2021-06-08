@@ -1,4 +1,4 @@
-' 2021-06-04 05:37:26.879336600 UTC
+' 2021-06-08 17:16:15.780805500 UTC
 
 Namespace hazedumper
     Public Shared Class netvars
@@ -116,9 +116,9 @@ Namespace hazedumper
         Public Const dwGameRulesProxy as Integer = &H52BF23C
         Public Const dwGetAllClasses as Integer = &HDB0FC4
         Public Const dwGlobalVars as Integer = &H588CF0
-        Public Const dwGlowObjectManager as Integer = &H52EA5F8
+        Public Const dwGlowObjectManager as Integer = &H52EA5D0
         Public Const dwInput as Integer = &H51F3720
-        Public Const dwInterfaceLinkList as Integer = &H9453C4
+        Public Const dwInterfaceLinkList as Integer = &H945514
         Public Const dwLocalPlayer as Integer = &HD892CC
         Public Const dwMouseEnable as Integer = &HD8EE18
         Public Const dwMouseEnablePtr as Integer = &HD8EDE8
@@ -133,7 +133,7 @@ Namespace hazedumper
         Public Const dwZoomSensitivityRatioPtr as Integer = &HD93D18
         Public Const dwbSendPackets as Integer = &HD76DA
         Public Const dwppDirect3DDevice9 as Integer = &HA7050
-        Public Const find_hud_element as Integer = &H2D32F980
+        Public Const find_hud_element as Integer = &H2E25F980
         Public Const force_update_spectator_glow as Integer = &H3AFECA
         Public Const interface_engine_cvar as Integer = &H3E9EC
         Public Const is_c4_owner as Integer = &H3BCB10
